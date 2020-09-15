@@ -1,9 +1,10 @@
-# docker-mbed-gcc-arm
+# Docker images for [Mbed OS](https://mbed.com)
+
+Branches correspond to different Mbed OS releases.
 
 ## Building the Docker image
 
 Simple! Just call `make`.
-
 
 ## Using the image to build an Mbed app
 
