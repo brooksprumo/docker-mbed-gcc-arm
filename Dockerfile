@@ -14,7 +14,7 @@ RUN python3 -m pip -q install -U pip \
 	&& python3 -m pip -q install -U setuptools \
 	&& python3 -m pip -q install -U wheel \
 	&& python3 -m pip -q install -U mbed-cli \
-	&& python3 -m pip -q install -U -r https://raw.githubusercontent.com/ARMmbed/mbed-os/mbed-os-5.15.5/requirements.txt
+	&& python3 -m pip -q install -U -r https://raw.githubusercontent.com/ARMmbed/mbed-os/mbed-os-6.2.1/requirements.txt
 RUN mbed toolchain --global GCC_ARM
 
 WORKDIR /work
